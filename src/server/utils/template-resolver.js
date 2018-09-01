@@ -31,7 +31,9 @@ async function getData(url) {
 async function templateResolver(req, res, next) {
   // Get the request URL
   const requestURL = req.params[0];
-
+  console.log('---------------');
+  console.log(requestURL);
+  console.log('---------------');
   const urlObj = await getData(`${baseURL}/templates/${requestURL}.html`);
 
   if (urlObj.err) {
