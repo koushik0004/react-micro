@@ -7,7 +7,7 @@ function Header() {
         <span>React Micro</span>
       </div>
       <div className="navbar-menu">
-        <a className="navbar-item" href="/home">
+        <a className="navbar-item" href="/index">
           Home
         </a>
         <a className="navbar-item" href="/about">
