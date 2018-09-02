@@ -1,5 +1,5 @@
 /**
- * Webpack external data configuration for app and component files.
+ * Webpack external data configuration for app files.
  */
 module.exports = function() {
   return {
