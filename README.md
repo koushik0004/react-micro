@@ -1,4 +1,4 @@
-# react-micro
+# React-Micro
 A microfrontend framework for React
 
 ## Getting Started
